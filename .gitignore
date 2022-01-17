@@ -1,4 +1,4 @@
-# Compiled class file
+ # Compiled class file
 *.class
 
 # Log file
@@ -30,3 +30,6 @@ build/
 nbbuild/ 
 dist/ 
 nbdist/
+
+# Eclipse
+.settings/
