@@ -9,7 +9,7 @@
 <?import javafx.scene.layout.VBox?>
 <?import javafx.scene.text.Font?>
 
-<VBox prefHeight="423.0" prefWidth="537.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="gui.SellerListController">
+<VBox prefHeight="423.0" prefWidth="621.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="gui.SellerListController">
    <children>
       <Label text="Seller Registration">
          <font>
@@ -24,15 +24,16 @@
           <Button fx:id="btNew" mnemonicParsing="false" onAction="#onBtNewAction" text="New Seller" />
         </items>
       </ToolBar>
-      <TableView fx:id="tableViewSeller" prefHeight="200.0" prefWidth="200.0">
+      <TableView fx:id="tableViewSeller" prefHeight="358.0" prefWidth="622.0">
         <columns>
           <TableColumn fx:id="tableColumnId" prefWidth="42.40002363920212" text="Id" />
-          <TableColumn fx:id="tableColumnName" prefWidth="96.79999160766602" text="Name" />
-            <TableColumn fx:id="tableColumnEmail" prefWidth="87.20001220703125" text="Email" />
+          <TableColumn fx:id="tableColumnName" prefWidth="92.79999160766602" text="Name" />
+            <TableColumn fx:id="tableColumnEmail" prefWidth="92.0" text="Email" />
             <TableColumn fx:id="tableColumnBirthDate" prefWidth="75.0" text="BirthDate" />
-            <TableColumn fx:id="tableColumnBaseSalary" prefWidth="96.79998779296875" text="Base Salary" />
-            <TableColumn fx:id="tableColumnEdit" prefWidth="75.20001220703125" />
-            <TableColumn fx:id="tableColumnRemove" prefWidth="67.20001220703125" />
+            <TableColumn fx:id="tableColumnBaseSalary" prefWidth="84.79998779296875" text="Base Salary" />
+            <TableColumn fx:id="tableColumnDepartment" text="Department" />
+            <TableColumn fx:id="tableColumnEdit" prefWidth="54.39996337890625" />
+            <TableColumn fx:id="tableColumnRemove" prefWidth="64.0001220703125" />
         </columns>
       </TableView>
    </children>
